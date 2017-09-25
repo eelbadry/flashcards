@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cardnumber:</strong>
+  <%= @card.cardnumber %>
+</p>
+
+<p>
+  <strong>Cardfront url:</strong>
+  <%= @card.cardfront_url %>
+</p>
+
+<p>
+  <strong>Cardback url:</strong>
+  <%= @card.cardback_url %>
+</p>
+
+<%= link_to 'Edit', edit_card_path(@card) %> |
+<%= link_to 'Back', cards_path %>

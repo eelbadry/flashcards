@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cardnumber: 1
+  cardfront_url: MyString
+  cardback_url: MyString
+
+two:
+  cardnumber: 1
+  cardfront_url: MyString
+  cardback_url: MyString
